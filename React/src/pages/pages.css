@@ -1,0 +1,100 @@
+.Contents{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Contents img{
+
+    width:50%;
+    height:250px;
+}
+.Contents p{
+    width: 50%;
+    text-align: justify;
+    
+    
+}
+.media-wrapr{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+.media-wrapr .details{
+    color:black;
+    
+}
+.icons .fab{
+    margin-left: 10px;
+    font-size: 25px;;
+}
+.Write-wraper{
+    
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 100px;
+    align-items: center;
+
+}
+
+.content{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+.content input{
+    padding: 10px;
+    border:1px solid lightgray;
+}
+.editorContainer{
+    height: 300px;
+    overflow: scroll;
+    border:1px solid lightgray
+}
+.editor{
+    height: 100%;
+    border:none;
+}
+.menu{
+    width: 25%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.item{
+    
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    padding-left: 10px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 12px;
+    color:#555;
+}
+.item h1{
+    font-size: 20px;
+}
+.item .file{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.item .buttons{
+    display: flex;
+    justify-content: space-between;
+}
+.cat{
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    gap:2px;
+    color:black;
+}
+.btn{
+    background-color:rgb(107, 107, 209);
+}

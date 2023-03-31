@@ -82,11 +82,11 @@ const Header = () => {
  
  <br/>
 
- <Landing/> 
+ {/* <Landing/> 
  <br/>
  <Middle/>
  <br/>
- <Footer/>
+ <Footer/> */}
 
     </div>
   )
