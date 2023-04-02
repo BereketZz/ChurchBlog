@@ -5,6 +5,7 @@ import './comp.css'
 import Landing from './Landing';
 import Middle from './Middle';
 import Footer from './Footer';
+import{Link} from 'react-router-dom'
 const Header = () => {
   return (
     <div className='head-div'>
@@ -52,20 +53,25 @@ const Header = () => {
        
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
           <li>
-            <a class="dropdown-item" href="#">ሥዕል</a>
+          <Link class="dropdown-item"   to="/?cat=art">ሥዕል</Link>
+            
           </li>
           <li>
-            <a class="dropdown-item" href="#">ሥነ ጽሑፍ</a>
+          <Link class="dropdown-item"   to="/?cat=text">ሥነ ጽሑፍ</Link>
+           
           </li>
           <li>
-            <a class="dropdown-item" href="#">መንፈሳዊ ትምህርት</a>
+          <Link class="dropdown-item"   to="/?cat=spritual">መንፈሳዊ ትምህርት</Link>
+
           </li>
           <li><hr class="dropdown-divider" /></li>
           <li>
-            <a class="dropdown-item" href="#">ቤተ ክርስቲያን</a>
+          <Link class="dropdown-item"   to="/?cat=church">ቤተ ክርስቲያን</Link>
           </li>
           <li>
-            <a class="dropdown-item" href="#">መጽሐፍ ቅዱስ</a>
+          <Link class="dropdown-item"   to="/?cat=bible">መጽሐፍ ቅዱስ</Link>
+
+            
           </li>
           </ul>
         </li>
